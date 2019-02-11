@@ -1,5 +1,96 @@
 
+/*
+Colors used
+
+Primary Color (Yellow): #FAFA05;
+Secondary Color (Blue): #3963B4;
+Link Color (Red): #FF5C33;
+Hover Color (Light blue): #00EDEC;
+Background Color (Rose): #FFE7FF;
+ */
+
+
+div{
+  padding: 15px; /* Adds a 10px inner spacing to all sides*/
+  margin: 15px; /* Adds a 10px outer spacing to all sides*/
+}
+
+
 body {
   background-color: #fafa05;
   font-family: 'Roboto', sans-serif;
-  }
+  font-weight: 400;
+  color: #3963b4;
+  font-size: 20px; /* Sets the font size to 16px */
+  line-height: 1.4; /* Sets the line-height to 1.6 */
+}
+
+
+h1 {
+  font-size: 44px;
+  font-weight: 900;
+}
+
+h2 {
+  font-size: 38px;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #3963b4;
+}
+
+
+a {
+  color: #ff5c33;
+  text-decoration: none;
+}
+
+a:visited {
+  /* visited link */
+  color: #FF5C33;
+}
+
+a:hover,
+a:focus {
+  color: #00edec;
+  text-decoration: none;
+}
+
+a:active {
+  /* selected link */
+  color: #ffe7ff;
+}
+
+
+
+button {
+  /* overwrite browser defaults */
+  border: none; /* reset the border */
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+
+  /* style button */
+  background-color: white;
+  color: #ff5c33;
+  text-decoration: none;
+  padding-top: 15px;
+  padding-right: 20px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+  border-radius: 30px;
+  border-bottom: 0px
+}
+
+button:hover,
+button:focus {
+  background-color: #3963B4;
+  cursor: pointer; /* let's the mouse appear as hand when hovering over the button */
+}
+
+.button-secondary {
+ background-color: #FF5C33;
+ color: white; /* Hi Carlo, here I don´t know how to turn around the colors. I want white font color here. */
+}

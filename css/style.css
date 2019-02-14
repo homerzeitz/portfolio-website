@@ -75,7 +75,7 @@ a:active {
 
 
 
-button {
+a.button {
   /* overwrite browser defaults */
   border: none; /* reset the border */
   font-family: 'Roboto', sans-serif;
@@ -91,15 +91,16 @@ button {
   padding-left: 20px;
   border-radius: 30px;
   border-bottom: 0px
+  size: 50px;
 }
 
-button:hover,
-button:focus {
+a.button:hover,
+a.button:focus {
   background-color: #3963B4;
   cursor: pointer; /* let's the mouse appear as hand when hovering over the button */
 }
 
-.button-secondary {
+a.button-secondary {
   background-color: #FF5C33;
   color: white; /* Hi Carlo, here I don´t know how to turn around the colors. I want white font color here. */
 }

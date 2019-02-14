@@ -7,17 +7,26 @@ Secondary Color (Blue): #3963B4;
 Link Color (Red): #FF5C33;
 Hover Color (Light blue): #00EDEC;
 Background Color (Rose): #FFE7FF;
- */
+*/
 
+img {
+  width: 60%;
+}
 
 div{
-  padding: 15px; /* Adds a 10px inner spacing to all sides*/
-  margin: 15px; /* Adds a 10px outer spacing to all sides*/
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 10px;
+  margin-bottom: : 10px;
 }
 
 
 body {
-  background-color: #fafa05;
+  background-color: white;
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   color: #3963b4;
@@ -91,6 +100,94 @@ button:focus {
 }
 
 .button-secondary {
- background-color: #FF5C33;
- color: white; /* Hi Carlo, here I don´t know how to turn around the colors. I want white font color here. */
+  background-color: #FF5C33;
+  color: white; /* Hi Carlo, here I don´t know how to turn around the colors. I want white font color here. */
+}
+
+
+#logo {
+  background-color: white;
+  text-align: center;
+}
+
+
+#navigation {
+  background-color: white;
+  text-align: left;
+  padding: 0px;
+  margin: 0px;
+}
+
+#claim {
+  background-color: #FAFA05;
+  padding: 20px;
+  margin: 0px;
+  color:#3963B4;
+  text-align: center;
+  font-size: 100%;
+  font-variant-ligatures: normal;
+}
+
+#intro {
+  background-color: #FAFA05;
+  padding: 50px;
+  margin: 0px;
+  color:#3963B4;
+  text-align: center;
+  font-size: 100%;
+
+}
+
+#section1 {
+  background-color: #FFE7FF;
+  padding: 50px;
+  margin: 0px;
+  color:#3963B4;
+  text-align: center;
+  font-size: 100%;
+}
+
+#section2 {
+  background-color: #FAFA05;
+  padding: 50px;
+  margin: 0px;
+  color:#3963B4;
+  text-align: center;
+  font-size: 100%;
+}
+
+#section3 {
+  background-color: #FFE7FF;
+  padding: 50px;
+  margin: 0px;
+  color:#3963B4;
+  text-align: center;
+  font-size: 100%;
+}
+
+#section4 {
+  background-color: #FAFA05;
+  padding: 50px;
+  margin: 0px;
+  color:#3963B4;
+  text-align: center;
+  font-size: 100%;
+}
+
+#section5 {
+  background-color: #FAFA05;
+  padding: 50px;
+  margin: 0px;
+  color:#3963B4;
+  text-align: center;
+  font-size: 100%;
+}
+
+#footer {
+  background-color: #FAFA05;
+  padding: 50px;
+  margin: 0px;
+  color:#3963B4;
+  text-align: center;
+  font-size: 80%;
 }

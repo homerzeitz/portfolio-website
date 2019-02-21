@@ -13,13 +13,6 @@ Background Color (Rose): #FFE7FF;
   box-sizing: border-box;
 }
 
-.wrapper {
-  width: 100%;
-  max-width: 1920px;
-  margin: 0 auto;
-  /* No spacing to top and bottom and auto spacing to left and right */
-}
-
 body {
   background-color: #ffffff;
   font-family: 'Roboto', sans-serif;
@@ -30,7 +23,6 @@ body {
   line-height: 1.4;
   letter-spacing: 0.02em;
 }
-
 
 h1 {
   font-size: 38px;
@@ -44,7 +36,7 @@ h2 {
   font-size: 34px;
   font-weight: 700;
   margin-top: 40px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   text-align: center;
 }
 
@@ -61,8 +53,7 @@ h4 {
   font-size: 24px;
   font-weight: 700;
   color: #FF5C33;
-  margin-top: 40px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   text-align: center;
 }
 
@@ -79,29 +70,24 @@ h4 {
   position: relative;
   max-width: 900px;
   margin: 0 auto;
-  margin-top: 60px;
-  margin-bottom: 60px;
-  padding: 0 10px;
 }
 
-.columns-container {
-  font-size: 0;
-}
-
-.column-6 {
-  font-size: 20px;
-  width: 16,6%;
+.col-6 {
+  width: 49%;
   display: inline-block;
-  margin-right: 1%;
+  margin-right: 2%;
   text-align: center;
+  float: left;
 }
 
-.column-6:last-child {
-margin-right: 0;
+.col-6:last-child {
+  margin-right: 0;
 }
 
-.item1 {
-  grid-row: 1 / 6;
+.row:after {
+  content: ' ';
+  display: table;
+  clear: both;
 }
 
 .logo {
@@ -109,7 +95,7 @@ margin-right: 0;
 }
 
 .svg {
-  max-width: 380px;
+  max-width: 200px;
 }
 
 .icon {
@@ -119,14 +105,11 @@ margin-right: 0;
 
 header {
   text-align: center;
+    background-color: #ffffff;
 }
 
 header .container {
   position: relative;
-  min-width: 360px;
-  max-width: 1200px;
-  margin: 0 auto;
-  background-color: #ffffff;
 }
 
 nav {
@@ -199,15 +182,13 @@ span {
   font-weight: 700;
 }
 
+button,
 .button {
-  /* overwrite browser defaults */
   border: none;
-  /* reset the border */
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
   font-weight: 500;
   letter-spacing: 0.02em;
-  /* style button */
   background-color: white;
   color: #ff5c33;
   text-decoration: none;
@@ -216,6 +197,7 @@ span {
   border-radius: 60px;
   border-bottom: 0px;
   display: inline-block;
+  transition: 1s opacity;
 }
 
 .button:hover,
@@ -224,9 +206,11 @@ span {
   color: #ff5c33;
 }
 
+button-secondary,
 .button-secondary {
   background-color: #FF5C33;
   color: #ffffff;
+  transition: 1s opacity;
 }
 
 .button-secondary:visited {
@@ -234,13 +218,15 @@ span {
   color: #ffffff;
 }
 
+button-medium,
 .button-medium {
   background-color: #3963B4;
   color: #ffffff;
-  font-size: 22px;
+  font-size: 24px;
   font-weight: 500;
   border-radius: 80px;
   margin: 60px 0;
+  transition: 1s opacity;
 }
 
 .button-medium:visited {
@@ -259,62 +245,134 @@ span {
   background-color: #FAFA05;
   color: #3963B4;
   text-align: center;
-  padding: 90px 0;
+  padding: 120px 200px 120px;
 }
 
 #toolset {
   background-color: #FFE7FF;
   color: #3963B4;
   text-align: center;
-  padding: 50px 0;
+  padding: 60px 20px;
 }
 
 #services {
   background-color: #FAFA05;
   color: #3963B4;
   text-align: center;
-  padding: 10px 0;
+  padding: 20px 200px 80px;
 }
 
 #philosophy {
   background-color: #FFE7FF;
   color: #3963B4;
   text-align: center;
-  padding: 10px 0;
+  padding: 30px 200px 30px;
 }
 
 #contact {
   background-color: #FAFA05;
   color: #3963B4;
   text-align: center;
-  padding: 10px 0;
+  padding: 20px 200px 30px;
 }
 
 #tryit {
   background-color: #FFE7FF;
   color: #3963B4;
   text-align: center;
-  padding: 10px 0;
+  padding: 20px 60px 30px;
 }
 
 #footer {
   background-color: #FAFA05;
   color: #3963B4;
+  font-size: 16px;
   text-align: center;
-  padding: 10px 0;
+  padding: 40px 40px;
 }
 
-@media all and (max-width: 300px) {
+.sun {
+animation: 5s color-change infinite alternate linear;
+}
+
+.cloud-front {
+  animation: 30s cloud-move infinite alternate linear;
+}
+
+.cloud-back {
+  animation: 35s cloud-move-reverse infinite alternate linear;
+}
+
+@keyframes color-change {
+  0% {fill: ##42f1f4;}
+  50% {fill: #4171f4;}
+  100% {fill: #af41f4;}
+}
+
+@keyframes cloud-move {
+  from {transform: translate(0,50px);}
+  to {transform: translate(200px,50px);}
+}
+
+@keyframes cloud-move-reverse {
+  from {transform: translate(440,48px);}
+  to {transform: translate(100px,48px);}
+}
+
+@media all and (max-width: 600px) {
   .logo {
     width: 100px;
   }
-
-  h1 {
-    font-size: 26px;
-    text-align: center;
+  p {
+    font-size: 16px;
   }
-  .column-6 {
-    width: 49%;
-    margin-right: nth-child(even);
+  h1 {
+    font-size: 30px;
+  }
+  h2 {
+    font-size: 26px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  h4 {
+    font-size: 18px;
+  }
+  ul {
+    font-size: 16px;
+  }
+  .uppercase {
+    font-size: 14px;
+  }
+  .button {
+    font-size: 16px;
+  }
+  .button-medium {
+    font-size: 20px;
+  }
+  .col-6 {
+    width: 100%;
+  }
+  #welcome {
+    margin: 0 auto;
+    padding: 30px;
+  }
+  #toolset {
+    padding: 30px;
+  }
+  #services {
+    padding: 30px;
+  }
+  #philosophy {
+    padding: 30px;
+  }
+  #contact {
+    padding: 30px;
+  }
+  #tryit {
+    padding: 30px;
+  }
+  #footer {
+    padding: 30px;
   }
 }

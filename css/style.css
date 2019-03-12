@@ -25,33 +25,33 @@ body {
 }
 
 h1 {
-  font-size: 38px;
+  font-size: 1.8em;
   font-weight: 600;
-  margin-top: 60px;
-  margin-bottom: 60px;
+  margin-top: 40px;
+  margin-bottom: 40px;
   text-align: center;
 }
 
 h2 {
-  font-size: 34px;
-  font-weight: 700;
-  margin-top: 40px;
+  font-size: 1.7em;
+  font-weight: 600;
+  margin-top: 10px;
   margin-bottom: 10px;
   text-align: center;
 }
 
 h3 {
-  font-size: 24px;
-  font-weight: 700;
+  font-size: 1.2em;
+  font-weight: 600;
   color: #3963B4;
-  margin-top: 40px;
-  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   text-align: center;
 }
 
 h4 {
-  font-size: 24px;
-  font-weight: 700;
+  font-size: 1.2em;
+  font-weight: 600;
   color: #FF5C33;
   margin-bottom: 10px;
   text-align: center;
@@ -60,7 +60,8 @@ h4 {
 .uppercase {
   color: #3963b4;
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 400;
+  letter-spacing: 4px;
   text-transform: uppercase;
   letter-spacing: 0.07em;
   text-align: center;
@@ -68,7 +69,7 @@ h4 {
 
 .container {
   position: relative;
-  max-width: 900px;
+  max-width: 800px;
   margin: 0 auto;
 }
 
@@ -78,6 +79,7 @@ h4 {
   margin-right: 2%;
   text-align: center;
   float: left;
+  padding: 20px
 }
 
 .col-6:last-child {
@@ -98,14 +100,10 @@ h4 {
   max-width: 200px;
 }
 
-.icon {
-  max-width: 60px;
-  display: inline-block;
-}
 
 header {
   text-align: center;
-    background-color: #ffffff;
+  background-color: #ffffff;
 }
 
 header .container {
@@ -171,7 +169,7 @@ a:focus {
 
 a:active {
   /* selected link */
-  color: #ffffff;
+  color: #FFE7FF;
 }
 
 img {
@@ -182,56 +180,20 @@ span {
   font-weight: 700;
 }
 
-button,
-.button {
-  border: none;
-  font-family: 'Roboto', sans-serif;
-  font-size: 18px;
-  font-weight: 500;
-  letter-spacing: 0.02em;
-  background-color: white;
-  color: #ff5c33;
-  text-decoration: none;
-  margin: 10px 10px;
-  padding: 15px 20px;
-  border-radius: 60px;
-  border-bottom: 0px;
-  display: inline-block;
-  transition: 1s opacity;
+.textarea {
+  text-align: left;
 }
 
-.button:hover,
-.button:focus {
-  background-color: #00EDEC;
-  color: #ff5c33;
+.xs-container {
+  position: relative;
+  max-width: 600px;
+  margin: 0 auto;
 }
 
-button-secondary,
-.button-secondary {
-  background-color: #FF5C33;
-  color: #ffffff;
-  transition: 1s opacity;
-}
-
-.button-secondary:visited {
-  /* visited link */
-  color: #ffffff;
-}
-
-button-medium,
-.button-medium {
-  background-color: #3963B4;
-  color: #ffffff;
-  font-size: 24px;
-  font-weight: 500;
-  border-radius: 80px;
-  margin: 60px 0;
-  transition: 1s opacity;
-}
-
-.button-medium:visited {
-  /* visited link */
-  color: #ffffff;
+.xl-container {
+  position: relative;
+  max-width: 1000px;
+  margin: 0 auto;
 }
 
 #navigation {
@@ -252,35 +214,35 @@ button-medium,
   background-color: #FFE7FF;
   color: #3963B4;
   text-align: center;
-  padding: 60px 20px;
+  padding: 60px 40px;
 }
 
 #services {
   background-color: #FAFA05;
   color: #3963B4;
   text-align: center;
-  padding: 20px 200px 80px;
+  padding: 60px 40px;
 }
 
 #philosophy {
   background-color: #FFE7FF;
   color: #3963B4;
   text-align: center;
-  padding: 30px 200px 30px;
+  padding: 60px 40px;
 }
 
 #contact {
   background-color: #FAFA05;
   color: #3963B4;
   text-align: center;
-  padding: 20px 200px 30px;
+  padding: 60px 40px;
 }
 
 #tryit {
   background-color: #FFE7FF;
   color: #3963B4;
   text-align: center;
-  padding: 20px 60px 30px;
+  padding: 60px 40px;
 }
 
 #footer {
@@ -291,33 +253,6 @@ button-medium,
   padding: 40px 40px;
 }
 
-.sun {
-animation: 5s color-change infinite alternate linear;
-}
-
-.cloud-front {
-  animation: 30s cloud-move infinite alternate linear;
-}
-
-.cloud-back {
-  animation: 35s cloud-move-reverse infinite alternate linear;
-}
-
-@keyframes color-change {
-  0% {fill: ##42f1f4;}
-  50% {fill: #4171f4;}
-  100% {fill: #af41f4;}
-}
-
-@keyframes cloud-move {
-  from {transform: translate(0,50px);}
-  to {transform: translate(200px,50px);}
-}
-
-@keyframes cloud-move-reverse {
-  from {transform: translate(440,48px);}
-  to {transform: translate(100px,48px);}
-}
 
 @media all and (max-width: 600px) {
   .logo {
@@ -327,7 +262,7 @@ animation: 5s color-change infinite alternate linear;
     font-size: 16px;
   }
   h1 {
-    font-size: 30px;
+    font-size: 28px;
   }
   h2 {
     font-size: 26px;
@@ -342,37 +277,107 @@ animation: 5s color-change infinite alternate linear;
     font-size: 16px;
   }
   .uppercase {
-    font-size: 14px;
+    font-size: 13px;
   }
   .button {
-    font-size: 16px;
+    font-size: 14px;
   }
   .button-medium {
-    font-size: 20px;
+    font-size: 16px;
+    margin: 0 auto;
   }
   .col-6 {
     width: 100%;
+    display: inline-block;
+    margin-top: 40px;
+    padding: 5px;
+    text-align: center;
+    float: left;
   }
   #welcome {
     margin: 0 auto;
-    padding: 30px;
+    padding: 40px 40px;
   }
   #toolset {
-    padding: 30px;
+    margin: 0 auto;
+    padding: 30px 50px;
   }
   #services {
-    padding: 30px;
+    margin: 0 auto;
+    padding: 35px 35px 60px 35px;
   }
   #philosophy {
-    padding: 30px;
+    margin: 0 auto;
+    padding: 30px 50px;
   }
   #contact {
-    padding: 30px;
+    margin: 0 auto;
+    padding: 30px 50px;
   }
   #tryit {
-    padding: 30px;
+    margin: 0 auto;
+    padding: 30px 10px;
   }
   #footer {
-    padding: 30px;
+    margin: 0 auto;
+    padding: 10px 50px;
   }
+}
+
+button,
+.button {
+  display: inline-block;
+  border: none;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  background-color: white;
+  color: #ff5c33;
+  text-decoration: none;
+  margin: 10px 10px;
+  padding: 15px 15px;
+  border-radius: 60px;
+  border-bottom: 0px;
+  transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out, border-color 0.5s ease-in-out;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #00EDEC;
+  color: #ff5c33;
+}
+
+.button:active {
+  background-color: #00EDEC;
+  color: #ff5c33;
+}
+
+button-contact,
+.button-contact {
+  background-color: #FF5C33;
+  color: #ffffff;
+  transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out, border-color 0.5s ease-in-out;
+}
+
+.button-contact:visited {
+  /* visited link */
+  color: #ffffff;
+}
+
+button-medium,
+.button-medium {
+  background-color: #3963B4;
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 500;
+  border-radius: 80px;
+  margin: 25px 0;
+  transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out, border-color 0.5s ease-in-out;
+}
+
+
+.button-medium:visited {
+  /* visited link */
+  color: #ffffff;
 }

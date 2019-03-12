@@ -182,6 +182,7 @@ span {
 
 .textarea {
   text-align: left;
+  padding: 5px 40px;
 }
 
 .xs-container {
@@ -293,6 +294,10 @@ span {
     padding: 5px;
     text-align: center;
     float: left;
+  }
+  .textarea {
+    text-align: left;
+    padding: 5px 5px;
   }
   #welcome {
     margin: 0 auto;

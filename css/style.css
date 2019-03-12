@@ -197,6 +197,10 @@ span {
   margin: 0 auto;
 }
 
+.h3-textarea {
+  text-align: left;
+}
+
 #navigation {
   background-color: #ffffff;
   text-align: left;

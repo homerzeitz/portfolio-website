@@ -8,6 +8,7 @@ Link Color (Red): #FF5C33;
 Hover Color (Light blue): #00EDEC;
 Background Color (Rose): #FFE7FF;
 */
+
 /* Layout styling */
 * {
   box-sizing: border-box;
@@ -23,6 +24,8 @@ body {
   line-height: 1.4;
   letter-spacing: 0.02em;
 }
+
+/* Typography */
 
 h1 {
   font-size: 1.8em;
@@ -111,17 +114,65 @@ header .container {
 }
 
 nav {
-  position: absolute;
-  top: 10px;
-  right: 10px;
+  max-width: 600px;
+  position: fixed;
+  top: 30px;
+  right: 50px;
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 500;
+  height: 700px;
 }
 
 nav-a {
   color: #3963B4;
   text-decoration: none;
 }
+
+
+/* Mobile nav menu */
+.mobile-container {
+  max-width: 700px;
+  margin: auto;
+  background-color: #ffffff;
+  padding: 5px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #ffffff;
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: #3963B4;
+  padding: 20px 20px;
+  text-decoration: none;
+  font-size: 20px;
+  display: block;
+}
+
+.topnav a.icon {
+  background-color: none;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 0;
+}
+
+.topnav a:hover {
+  background-color: #FFE7FF;
+  color: #3963B4;
+}
+
+.active {
+  background-color: inherit;
+}
+
 
 .nav-a:visited {
   /* visited link */
@@ -136,7 +187,7 @@ nav-a {
 
 .nav-a:active {
   /* selected link */
-  color: #00EDEC;
+  color: #FF5C33;
 }
 
 nav ul {

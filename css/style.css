@@ -1,3 +1,185 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3747197, 2019-04-15T06:41:38-0400
+ *
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are
+ * explicitly restricted from using the Licensed Webfonts(s).
+ *
+ * You may obtain a valid license at the URLs below.
+ *
+ * Webfont: TTCommons-Regular by TypeType
+ * URL: https://www.myfonts.com/fonts/type-type/tt-commons/regular/
+ *
+ * Webfont: TTCommons-LightItalic by TypeType
+ * URL: https://www.myfonts.com/fonts/type-type/tt-commons/light-italic/
+ *
+ * Webfont: TTCommons-Light by TypeType
+ * URL: https://www.myfonts.com/fonts/type-type/tt-commons/light/
+ *
+ * Webfont: TTCommons-Medium by TypeType
+ * URL: https://www.myfonts.com/fonts/type-type/tt-commons/medium/
+ *
+ * Webfont: TTCommons-MediumItalic by TypeType
+ * URL: https://www.myfonts.com/fonts/type-type/tt-commons/medium-italic/
+ *
+ * Webfont: TTCommons-Italic by TypeType
+ * URL: https://www.myfonts.com/fonts/type-type/tt-commons/italic/
+ *
+ * Webfont: TTCommons-ThinItalic by TypeType
+ * URL: https://www.myfonts.com/fonts/type-type/tt-commons/thin-italic/
+ *
+ * Webfont: TTCommons-Thin by TypeType
+ * URL: https://www.myfonts.com/fonts/type-type/tt-commons/thin/
+ *
+ * Webfont: TTCommons-BlackItalic by TypeType
+ * URL: https://www.myfonts.com/fonts/type-type/tt-commons/black-italic/
+ *
+ * Webfont: TTCommons-Black by TypeType
+ * URL: https://www.myfonts.com/fonts/type-type/tt-commons/black/
+ *
+ * Webfont: TTCommons-BoldItalic by TypeType
+ * URL: https://www.myfonts.com/fonts/type-type/tt-commons/bold-italic/
+ *
+ * Webfont: TTCommons-Bold by TypeType
+ * URL: https://www.myfonts.com/fonts/type-type/tt-commons/bold/
+ *
+ * Webfont: TTCommons-DemiBoldItalic by TypeType
+ * URL: https://www.myfonts.com/fonts/type-type/tt-commons/demi-bold-italic/
+ *
+ * Webfont: TTCommons-DemiBold by TypeType
+ * URL: https://www.myfonts.com/fonts/type-type/tt-commons/demi-bold/
+ *
+ * Webfont: TTCommons-ExtraBoldItalic by TypeType
+ * URL: https://www.myfonts.com/fonts/type-type/tt-commons/extra-bold-italic/
+ *
+ * Webfont: TTCommons-ExtraBold by TypeType
+ * URL: https://www.myfonts.com/fonts/type-type/tt-commons/extra-bold/
+ *
+ * Webfont: TTCommons-ExtraLightItalic by TypeType
+ * URL: https://www.myfonts.com/fonts/type-type/tt-commons/extra-light-italic/
+ *
+ * Webfont: TTCommons-ExtraLight by TypeType
+ * URL: https://www.myfonts.com/fonts/type-type/tt-commons/extra-light/
+ *
+ *
+ * License: https://www.myfonts.com/viewlicense?type=web&buildid=3747197
+ * Licensed pageviews: 20,000
+ * Webfonts copyright: Copyright (c) 2018 by TypeType. Designers Ivan Gladkikh, Pavel Emelyanov. Technical designers Marina Khodak, Vika Usmanova, Nadyr Rakhimov. All rights reserved.
+ *
+ * © 2019 MyFonts Inc
+*/
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/392d7d");
+
+@font-face {
+  font-family: 'TTCommons-Regular';
+  src: url('webfonts/392D7D_0_0.eot');
+  src: url('webfonts/392D7D_0_0.eot?#iefix') format('embedded-opentype'), url('webfonts/392D7D_0_0.woff2') format('woff2'), url('webfonts/392D7D_0_0.woff') format('woff'), url('webfonts/392D7D_0_0.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'TTCommons-LightItalic';
+  src: url('webfonts/392D7D_1_0.eot');
+  src: url('webfonts/392D7D_1_0.eot?#iefix') format('embedded-opentype'), url('webfonts/392D7D_1_0.woff2') format('woff2'), url('webfonts/392D7D_1_0.woff') format('woff'), url('webfonts/392D7D_1_0.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'TTCommons-Light';
+  src: url('webfonts/392D7D_2_0.eot');
+  src: url('webfonts/392D7D_2_0.eot?#iefix') format('embedded-opentype'), url('webfonts/392D7D_2_0.woff2') format('woff2'), url('webfonts/392D7D_2_0.woff') format('woff'), url('webfonts/392D7D_2_0.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'TTCommons-Medium';
+  src: url('webfonts/392D7D_3_0.eot');
+  src: url('webfonts/392D7D_3_0.eot?#iefix') format('embedded-opentype'), url('webfonts/392D7D_3_0.woff2') format('woff2'), url('webfonts/392D7D_3_0.woff') format('woff'), url('webfonts/392D7D_3_0.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'TTCommons-MediumItalic';
+  src: url('webfonts/392D7D_4_0.eot');
+  src: url('webfonts/392D7D_4_0.eot?#iefix') format('embedded-opentype'), url('webfonts/392D7D_4_0.woff2') format('woff2'), url('webfonts/392D7D_4_0.woff') format('woff'), url('webfonts/392D7D_4_0.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'TTCommons-Italic';
+  src: url('webfonts/392D7D_5_0.eot');
+  src: url('webfonts/392D7D_5_0.eot?#iefix') format('embedded-opentype'), url('webfonts/392D7D_5_0.woff2') format('woff2'), url('webfonts/392D7D_5_0.woff') format('woff'), url('webfonts/392D7D_5_0.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'TTCommons-ThinItalic';
+  src: url('webfonts/392D7D_6_0.eot');
+  src: url('webfonts/392D7D_6_0.eot?#iefix') format('embedded-opentype'), url('webfonts/392D7D_6_0.woff2') format('woff2'), url('webfonts/392D7D_6_0.woff') format('woff'), url('webfonts/392D7D_6_0.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'TTCommons-Thin';
+  src: url('webfonts/392D7D_7_0.eot');
+  src: url('webfonts/392D7D_7_0.eot?#iefix') format('embedded-opentype'), url('webfonts/392D7D_7_0.woff2') format('woff2'), url('webfonts/392D7D_7_0.woff') format('woff'), url('webfonts/392D7D_7_0.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'TTCommons-BlackItalic';
+  src: url('webfonts/392D7D_8_0.eot');
+  src: url('webfonts/392D7D_8_0.eot?#iefix') format('embedded-opentype'), url('webfonts/392D7D_8_0.woff2') format('woff2'), url('webfonts/392D7D_8_0.woff') format('woff'), url('webfonts/392D7D_8_0.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'TTCommons-Black';
+  src: url('webfonts/392D7D_9_0.eot');
+  src: url('webfonts/392D7D_9_0.eot?#iefix') format('embedded-opentype'), url('webfonts/392D7D_9_0.woff2') format('woff2'), url('webfonts/392D7D_9_0.woff') format('woff'), url('webfonts/392D7D_9_0.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'TTCommons-BoldItalic';
+  src: url('webfonts/392D7D_A_0.eot');
+  src: url('webfonts/392D7D_A_0.eot?#iefix') format('embedded-opentype'), url('webfonts/392D7D_A_0.woff2') format('woff2'), url('webfonts/392D7D_A_0.woff') format('woff'), url('webfonts/392D7D_A_0.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'TTCommons-Bold';
+  src: url('webfonts/392D7D_B_0.eot');
+  src: url('webfonts/392D7D_B_0.eot?#iefix') format('embedded-opentype'), url('webfonts/392D7D_B_0.woff2') format('woff2'), url('webfonts/392D7D_B_0.woff') format('woff'), url('webfonts/392D7D_B_0.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'TTCommons-DemiBoldItalic';
+  src: url('webfonts/392D7D_C_0.eot');
+  src: url('webfonts/392D7D_C_0.eot?#iefix') format('embedded-opentype'), url('webfonts/392D7D_C_0.woff2') format('woff2'), url('webfonts/392D7D_C_0.woff') format('woff'), url('webfonts/392D7D_C_0.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'TTCommons-DemiBold';
+  src: url('webfonts/392D7D_D_0.eot');
+  src: url('webfonts/392D7D_D_0.eot?#iefix') format('embedded-opentype'), url('webfonts/392D7D_D_0.woff2') format('woff2'), url('webfonts/392D7D_D_0.woff') format('woff'), url('webfonts/392D7D_D_0.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'TTCommons-ExtraBoldItalic';
+  src: url('webfonts/392D7D_E_0.eot');
+  src: url('webfonts/392D7D_E_0.eot?#iefix') format('embedded-opentype'), url('webfonts/392D7D_E_0.woff2') format('woff2'), url('webfonts/392D7D_E_0.woff') format('woff'), url('webfonts/392D7D_E_0.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'TTCommons-ExtraBold';
+  src: url('webfonts/392D7D_F_0.eot');
+  src: url('webfonts/392D7D_F_0.eot?#iefix') format('embedded-opentype'), url('webfonts/392D7D_F_0.woff2') format('woff2'), url('webfonts/392D7D_F_0.woff') format('woff'), url('webfonts/392D7D_F_0.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'TTCommons-ExtraLightItalic';
+  src: url('webfonts/392D7D_10_0.eot');
+  src: url('webfonts/392D7D_10_0.eot?#iefix') format('embedded-opentype'), url('webfonts/392D7D_10_0.woff2') format('woff2'), url('webfonts/392D7D_10_0.woff') format('woff'), url('webfonts/392D7D_10_0.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'TTCommons-ExtraLight';
+  src: url('webfonts/392D7D_11_0.eot');
+  src: url('webfonts/392D7D_11_0.eot?#iefix') format('embedded-opentype'), url('webfonts/392D7D_11_0.woff2') format('woff2'), url('webfonts/392D7D_11_0.woff') format('woff'), url('webfonts/392D7D_11_0.ttf') format('truetype');
+}
+
 /* CSS Document */
 /*
 Colors used
@@ -8,7 +190,6 @@ Link Color (Red): #FF5C33;
 Hover Color (Light blue): #00EDEC;
 Background Color (Rose): #FFE7FF;
 */
-
 /* Layout styling */
 * {
   box-sizing: border-box;
@@ -16,36 +197,37 @@ Background Color (Rose): #FFE7FF;
 
 body {
   background-color: #ffffff;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
+  font-family: 'TTCommons-Regular';
   color: #3963b4;
-  font-size: 20px;
-  /* Sets the font size to 16px */
-  line-height: 1.4;
+  font-size: 24px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
 }
 
 /* Typography */
-
 h1 {
-  font-size: 1.8em;
-  font-weight: 600;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  font-family: 'TTCommons-Medium';
+  font-size: 2em;
+  line-height: 1.1;
+  letter-spacing: 0.03em;
+  margin-top: 50px;
+  margin-bottom: 90px;
   text-align: center;
 }
 
 h2 {
+  font-family: 'TTCommons-Medium';
   font-size: 1.7em;
-  font-weight: 600;
+  letter-spacing: 0.04em;
   margin-top: 10px;
   margin-bottom: 10px;
   text-align: center;
 }
 
 h3 {
-  font-size: 1.2em;
-  font-weight: 600;
+  font-family: 'TTCommons-Medium';
+  font-size: 1em;
+  letter-spacing: 0.03em;
   color: #3963B4;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -53,27 +235,37 @@ h3 {
 }
 
 h4 {
-  font-size: 1.2em;
-  font-weight: 600;
+  font-family: 'TTCommons-Medium';
+  font-size: 1em;
+  letter-spacing: 0.03em;
+  line-height: 1.1;
   color: #FF5C33;
   margin-bottom: 10px;
   text-align: center;
 }
 
 .uppercase {
+  font-family: 'TTCommons-Medium';
   color: #3963b4;
-  font-size: 18px;
-  font-weight: 400;
+  font-size: 20px;
   letter-spacing: 4px;
   text-transform: uppercase;
   letter-spacing: 0.07em;
   text-align: center;
+  margin-top: 0px;
+  margin-bottom: 20px;
 }
 
 .container {
   position: relative;
   max-width: 800px;
   margin: 0 auto;
+}
+
+.welcome-container {
+  max-height: 580px;
+  height: 100vh;
+  padding: 20px;
 }
 
 .col-6 {
@@ -103,10 +295,10 @@ h4 {
   max-width: 200px;
 }
 
-
 header {
   text-align: center;
   background-color: #ffffff;
+  max-height: 90px;
 }
 
 header .container {
@@ -116,18 +308,15 @@ header .container {
 nav {
   max-width: 600px;
   position: fixed;
-  top: 30px;
-  right: 50px;
+  top: 35px;
+  right: 100px;
   font-size: 20px;
-  font-weight: 500;
-  height: 700px;
 }
 
 nav-a {
   color: #3963B4;
   text-decoration: none;
 }
-
 
 /* Mobile nav menu */
 .mobile-container {
@@ -172,7 +361,6 @@ nav-a {
 .active {
   background-color: inherit;
 }
-
 
 .nav-a:visited {
   /* visited link */
@@ -231,7 +419,6 @@ span {
   font-weight: 700;
 }
 
-
 .textarea {
   text-align: left;
   padding: 5px 40px;
@@ -240,17 +427,43 @@ span {
 .xs-container {
   position: relative;
   max-width: 600px;
+  height: 400px;
   margin: 0 auto;
 }
 
 .xl-container {
   position: relative;
-  max-width: 1000px;
+  max-width: 1300px;
   margin: 0 auto;
 }
 
 .h3-textarea {
   text-align: left;
+}
+
+#myBtn {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Fixed/sticky position */
+  bottom: 20px;
+  /* Place the button at the bottom of the page */
+  right: 80px;
+  /* Place the button 30px from the right */
+  z-index: 99;
+  /* Make sure it does not overlap */
+  border: none;
+  outline: none;
+  background-color: #ffffff;
+  color: #FF5C33;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 0px;
+  font-size: 18px;
+}
+
+#myBtn:hover {
+  background-color: #00EDEC;
 }
 
 #navigation {
@@ -310,88 +523,12 @@ span {
   padding: 40px 40px;
 }
 
-
-@media all and (max-width: 600px) {
-  .logo {
-    width: 100px;
-  }
-  p {
-    font-size: 16px;
-  }
-  h1 {
-    font-size: 28px;
-  }
-  h2 {
-    font-size: 26px;
-  }
-  h3 {
-    font-size: 20px;
-  }
-  h4 {
-    font-size: 18px;
-  }
-  ul {
-    font-size: 16px;
-  }
-  .uppercase {
-    font-size: 13px;
-  }
-  .button {
-    font-size: 14px;
-  }
-  .button-medium {
-    font-size: 16px;
-    margin: 0 auto;
-  }
-  .col-6 {
-    width: 100%;
-    display: inline-block;
-    margin-top: 40px;
-    padding: 5px;
-    text-align: center;
-    float: left;
-  }
-  .textarea {
-    text-align: left;
-    padding: 5px 5px;
-  }
-  #welcome {
-    margin: 0 auto;
-    padding: 40px 40px;
-  }
-  #toolset {
-    margin: 0 auto;
-    padding: 30px 50px;
-  }
-  #services {
-    margin: 0 auto;
-    padding: 35px 35px 60px 35px;
-  }
-  #philosophy {
-    margin: 0 auto;
-    padding: 30px 50px;
-  }
-  #contact {
-    margin: 0 auto;
-    padding: 30px 50px;
-  }
-  #tryit {
-    margin: 0 auto;
-    padding: 30px 10px;
-  }
-  #footer {
-    margin: 0 auto;
-    padding: 10px 50px;
-  }
-}
-
 button,
 .button {
   display: inline-block;
   border: none;
-  font-family: 'Roboto', sans-serif;
-  font-size: 18px;
-  font-weight: 500;
+  font-family: 'TTCommons-Medium';
+  font-size: 24px;
   letter-spacing: 0.03em;
   background-color: white;
   color: #ff5c33;
@@ -430,15 +567,146 @@ button-medium,
 .button-medium {
   background-color: #3963B4;
   color: #ffffff;
-  font-size: 22px;
-  font-weight: 500;
+  font-size: 30px;
   border-radius: 80px;
   margin: 25px 0;
   transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out, border-color 0.5s ease-in-out;
 }
 
+button-medium2,
+.button-medium2 {
+  background-color: #FF5C33;
+  color: #ffffff;
+  font-size: 30px;
+  border-radius: 80px;
+  margin: 25px 0;
+  transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out, border-color 0.5s ease-in-out;
+}
 
 .button-medium:visited {
   /* visited link */
   color: #ffffff;
+}
+
+.button-medium2:visited {
+  /* visited link */
+  color: #ffffff;
+}
+
+@media all and (max-width: 600px) {
+  .logo {
+    width: 100px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  h1 {
+    font-size: 32px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  h3 {
+    font-size: 22px;
+  }
+
+  h4 {
+    font-size: 22px;
+  }
+
+  ul {
+    font-size: 20px;
+  }
+
+  .uppercase {
+    font-size: 20px;
+  }
+
+  .button {
+    font-size: 20px;
+  }
+
+  .button-medium {
+    font-size: 24px;
+    margin: 0 auto;
+  }
+
+  .col-6 {
+    width: 100%;
+    display: inline-block;
+    margin-top: 40px;
+    padding: 5px;
+    text-align: center;
+    float: left;
+  }
+
+  .textarea {
+    text-align: left;
+    padding: 5px 5px;
+  }
+
+  nav {
+    max-width: 600px;
+    position: fixed;
+    top: 25px;
+    right: 20px;
+  }
+
+  .welcome-container {
+    max-height: 500px;
+    height: 100vh;
+    padding: 10px;
+  }
+
+  .xs-container {
+    height: 350px;
+  }
+
+  #welcome {
+    margin: 0 auto;
+    padding: 10px 10px;
+  }
+
+  #toolset {
+    margin: 0 auto;
+    padding: 20px 40px;
+  }
+
+  #services {
+    margin: 0 auto;
+    padding: 35px 35px 60px 35px;
+  }
+
+  #philosophy {
+    margin: 0 auto;
+    padding: 15px 15px;
+  }
+
+  #contact {
+    margin: 0 auto;
+    padding: 20px 40px;
+  }
+
+  #tryit {
+    margin: 0 auto;
+    padding: 30px 10px;
+  }
+
+  #footer {
+    margin: 0 auto;
+    padding: 15px 15px;
+  }
+
+  #myBtn {
+    bottom: 10px;
+    right: 10px;
+    padding: 10px;
+    font-size: 16px;
+  }
 }

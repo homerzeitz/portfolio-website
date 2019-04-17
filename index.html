@@ -7,7 +7,7 @@
   <link rel="icon" href="favicon.ico" type="image/x-icon">
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
-  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="fonts/MyFontsWebfontsKit.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,34 +19,34 @@
       <a href="index.html"><img class="logo" src="img/Gumpower_Hotz.jpg" alt="Bubble Gums"></a>
 
       <nav>
-          <!-- Top Navigation Menu -->
-          <div class="topnav">
-            <a href="index.html" class="active"></a>
-            <!-- Navigation links (hidden by default) -->
-            <div id="myLinks">
-              <a href="#toolset">Toolset</a>
-              <a href="#services">Services</a>
-              <a href="#philosophy">Philosophy</a>
-              <a href="#contact">Contact</a>
-              <a href="#tryit">Try it!</a>
-            </div>
-            <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-              <i class="fa fa-bars"></i>
-            </a>
+        <!-- Top Navigation Menu -->
+        <div class="topnav">
+          <a href="index.html" class="active"></a>
+          <!-- Navigation links (hidden by default) -->
+          <div id="myLinks">
+            <a href="#toolset">Toolset</a>
+            <a href="#services">Services</a>
+            <a href="#philosophy">Mindset</a>
+            <a href="#contact">Contact</a>
+            <a href="#tryit">Try it!</a>
           </div>
+          <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
       </nav>
     </div>
   </header>
 
   <div id="welcome">
-    <div class="container">
+    <div class="container welcome-container">
       <p class="uppercase">
         Shaping analog and digital areas
       </p>
       <h1>Hi, I'm Stephanie. I'm a senior art director, UX/UI designer and contemporary artist based in Berlin.</h1>
-      <a href="#philosophy" class="button">Do you like bubble gum?</a>
-      <a href="#contact" class="button button-contact">Already a specific project?</a>
+      <a href="#philosophy" class="button button-contact">Do you like bubble gum?</a>
+      <a href="#contact" class="button">Contact me now?</a>
     </div>
   </div>
 
@@ -210,7 +210,7 @@
 
   <div id="philosophy">
     <div class="container textarea">
-      <h2>Philosophy</h2>
+      <h2>Mindset</h2>
       <h4>I love bubble gum! <br>But why? And what does that have to do with the way I work?</h4>
       <a><img src="img/Blowup_Hotz.png" alt="Blowup"></a>
 
@@ -232,7 +232,7 @@
       <p>I'm here to generate great user experiences that solve everyday problems.
       </p>
       <p>But to return to some real gum, for some years now I've used my art to explore bubble gum and its relevance to modernity and the digital postmodern. I have started to add my bubble-gum artworks and researches,
-        <a href="mailto:mail@stephaniehotz.de">here</a>.
+        <a href="https://www.instagram.com/z.toh/" target="_blank">here</a>.
       </p>
     </div>
   </div>
@@ -240,18 +240,16 @@
   <div id="contact">
     <div class="container xs-container">
       <h2>Contact</h2>
-      <p>
-        For portfolio requests and service inquiries:
-        <br>
-        <a href="mailto:mail@stephaniehotz.de" class="button"> Write an email</a>
-        <br>
-        <br>
-        You can download my resumé in
+      <p>You can download my resumé in
         <a href="files/Hotz_Stephanie_Resume_EN.pdf" target="_blank">English</a>
         or <a href="files/Hotz_Stephanie_Resume_DT.pdf" target="_blank">German</a>
         and connect with my linkedin profile
         <a href="https://www.linkedin.com/in/stephaniehotz/" target="_blank">here</a>.
       </p>
+      <p>
+        For portfolio requests and service inquiries:
+        <br>
+        <a href="mailto:mail@stephaniehotz.de" class="button button-medium2"> Write an email.</a>
     </div>
   </div>
 
@@ -275,6 +273,7 @@
     </div>
   </div>
 
+  <button onclick="topFunction()" id="myBtn" title="Go to top">UP</button>
   <script src="js/script.js"></script>
 </body>
 

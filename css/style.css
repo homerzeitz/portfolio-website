@@ -11,56 +11,14 @@
  * Webfont: TTCommons-Regular by TypeType
  * URL: https://www.myfonts.com/fonts/type-type/tt-commons/regular/
  *
- * Webfont: TTCommons-LightItalic by TypeType
- * URL: https://www.myfonts.com/fonts/type-type/tt-commons/light-italic/
- *
- * Webfont: TTCommons-Light by TypeType
- * URL: https://www.myfonts.com/fonts/type-type/tt-commons/light/
- *
  * Webfont: TTCommons-Medium by TypeType
  * URL: https://www.myfonts.com/fonts/type-type/tt-commons/medium/
- *
- * Webfont: TTCommons-MediumItalic by TypeType
- * URL: https://www.myfonts.com/fonts/type-type/tt-commons/medium-italic/
- *
- * Webfont: TTCommons-Italic by TypeType
- * URL: https://www.myfonts.com/fonts/type-type/tt-commons/italic/
- *
- * Webfont: TTCommons-ThinItalic by TypeType
- * URL: https://www.myfonts.com/fonts/type-type/tt-commons/thin-italic/
- *
- * Webfont: TTCommons-Thin by TypeType
- * URL: https://www.myfonts.com/fonts/type-type/tt-commons/thin/
- *
- * Webfont: TTCommons-BlackItalic by TypeType
- * URL: https://www.myfonts.com/fonts/type-type/tt-commons/black-italic/
- *
- * Webfont: TTCommons-Black by TypeType
- * URL: https://www.myfonts.com/fonts/type-type/tt-commons/black/
- *
- * Webfont: TTCommons-BoldItalic by TypeType
- * URL: https://www.myfonts.com/fonts/type-type/tt-commons/bold-italic/
  *
  * Webfont: TTCommons-Bold by TypeType
  * URL: https://www.myfonts.com/fonts/type-type/tt-commons/bold/
  *
- * Webfont: TTCommons-DemiBoldItalic by TypeType
- * URL: https://www.myfonts.com/fonts/type-type/tt-commons/demi-bold-italic/
- *
  * Webfont: TTCommons-DemiBold by TypeType
  * URL: https://www.myfonts.com/fonts/type-type/tt-commons/demi-bold/
- *
- * Webfont: TTCommons-ExtraBoldItalic by TypeType
- * URL: https://www.myfonts.com/fonts/type-type/tt-commons/extra-bold-italic/
- *
- * Webfont: TTCommons-ExtraBold by TypeType
- * URL: https://www.myfonts.com/fonts/type-type/tt-commons/extra-bold/
- *
- * Webfont: TTCommons-ExtraLightItalic by TypeType
- * URL: https://www.myfonts.com/fonts/type-type/tt-commons/extra-light-italic/
- *
- * Webfont: TTCommons-ExtraLight by TypeType
- * URL: https://www.myfonts.com/fonts/type-type/tt-commons/extra-light/
  *
  *
  * License: https://www.myfonts.com/viewlicense?type=web&buildid=3747197
@@ -79,12 +37,6 @@
 }
 
 @font-face {
-  font-family: 'TTCommons-LightItalic';
-  src: url('webfonts/392D7D_1_0.eot');
-  src: url('webfonts/392D7D_1_0.eot?#iefix') format('embedded-opentype'), url('webfonts/392D7D_1_0.woff2') format('woff2'), url('webfonts/392D7D_1_0.woff') format('woff'), url('webfonts/392D7D_1_0.ttf') format('truetype');
-}
-
-@font-face {
   font-family: 'TTCommons-Light';
   src: url('webfonts/392D7D_2_0.eot');
   src: url('webfonts/392D7D_2_0.eot?#iefix') format('embedded-opentype'), url('webfonts/392D7D_2_0.woff2') format('woff2'), url('webfonts/392D7D_2_0.woff') format('woff'), url('webfonts/392D7D_2_0.ttf') format('truetype');
@@ -97,57 +49,9 @@
 }
 
 @font-face {
-  font-family: 'TTCommons-MediumItalic';
-  src: url('webfonts/392D7D_4_0.eot');
-  src: url('webfonts/392D7D_4_0.eot?#iefix') format('embedded-opentype'), url('webfonts/392D7D_4_0.woff2') format('woff2'), url('webfonts/392D7D_4_0.woff') format('woff'), url('webfonts/392D7D_4_0.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'TTCommons-Italic';
-  src: url('webfonts/392D7D_5_0.eot');
-  src: url('webfonts/392D7D_5_0.eot?#iefix') format('embedded-opentype'), url('webfonts/392D7D_5_0.woff2') format('woff2'), url('webfonts/392D7D_5_0.woff') format('woff'), url('webfonts/392D7D_5_0.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'TTCommons-ThinItalic';
-  src: url('webfonts/392D7D_6_0.eot');
-  src: url('webfonts/392D7D_6_0.eot?#iefix') format('embedded-opentype'), url('webfonts/392D7D_6_0.woff2') format('woff2'), url('webfonts/392D7D_6_0.woff') format('woff'), url('webfonts/392D7D_6_0.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'TTCommons-Thin';
-  src: url('webfonts/392D7D_7_0.eot');
-  src: url('webfonts/392D7D_7_0.eot?#iefix') format('embedded-opentype'), url('webfonts/392D7D_7_0.woff2') format('woff2'), url('webfonts/392D7D_7_0.woff') format('woff'), url('webfonts/392D7D_7_0.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'TTCommons-BlackItalic';
-  src: url('webfonts/392D7D_8_0.eot');
-  src: url('webfonts/392D7D_8_0.eot?#iefix') format('embedded-opentype'), url('webfonts/392D7D_8_0.woff2') format('woff2'), url('webfonts/392D7D_8_0.woff') format('woff'), url('webfonts/392D7D_8_0.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'TTCommons-Black';
-  src: url('webfonts/392D7D_9_0.eot');
-  src: url('webfonts/392D7D_9_0.eot?#iefix') format('embedded-opentype'), url('webfonts/392D7D_9_0.woff2') format('woff2'), url('webfonts/392D7D_9_0.woff') format('woff'), url('webfonts/392D7D_9_0.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'TTCommons-BoldItalic';
-  src: url('webfonts/392D7D_A_0.eot');
-  src: url('webfonts/392D7D_A_0.eot?#iefix') format('embedded-opentype'), url('webfonts/392D7D_A_0.woff2') format('woff2'), url('webfonts/392D7D_A_0.woff') format('woff'), url('webfonts/392D7D_A_0.ttf') format('truetype');
-}
-
-@font-face {
   font-family: 'TTCommons-Bold';
   src: url('webfonts/392D7D_B_0.eot');
   src: url('webfonts/392D7D_B_0.eot?#iefix') format('embedded-opentype'), url('webfonts/392D7D_B_0.woff2') format('woff2'), url('webfonts/392D7D_B_0.woff') format('woff'), url('webfonts/392D7D_B_0.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'TTCommons-DemiBoldItalic';
-  src: url('webfonts/392D7D_C_0.eot');
-  src: url('webfonts/392D7D_C_0.eot?#iefix') format('embedded-opentype'), url('webfonts/392D7D_C_0.woff2') format('woff2'), url('webfonts/392D7D_C_0.woff') format('woff'), url('webfonts/392D7D_C_0.ttf') format('truetype');
 }
 
 @font-face {
@@ -156,31 +60,7 @@
   src: url('webfonts/392D7D_D_0.eot?#iefix') format('embedded-opentype'), url('webfonts/392D7D_D_0.woff2') format('woff2'), url('webfonts/392D7D_D_0.woff') format('woff'), url('webfonts/392D7D_D_0.ttf') format('truetype');
 }
 
-@font-face {
-  font-family: 'TTCommons-ExtraBoldItalic';
-  src: url('webfonts/392D7D_E_0.eot');
-  src: url('webfonts/392D7D_E_0.eot?#iefix') format('embedded-opentype'), url('webfonts/392D7D_E_0.woff2') format('woff2'), url('webfonts/392D7D_E_0.woff') format('woff'), url('webfonts/392D7D_E_0.ttf') format('truetype');
-}
 
-@font-face {
-  font-family: 'TTCommons-ExtraBold';
-  src: url('webfonts/392D7D_F_0.eot');
-  src: url('webfonts/392D7D_F_0.eot?#iefix') format('embedded-opentype'), url('webfonts/392D7D_F_0.woff2') format('woff2'), url('webfonts/392D7D_F_0.woff') format('woff'), url('webfonts/392D7D_F_0.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'TTCommons-ExtraLightItalic';
-  src: url('webfonts/392D7D_10_0.eot');
-  src: url('webfonts/392D7D_10_0.eot?#iefix') format('embedded-opentype'), url('webfonts/392D7D_10_0.woff2') format('woff2'), url('webfonts/392D7D_10_0.woff') format('woff'), url('webfonts/392D7D_10_0.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'TTCommons-ExtraLight';
-  src: url('webfonts/392D7D_11_0.eot');
-  src: url('webfonts/392D7D_11_0.eot?#iefix') format('embedded-opentype'), url('webfonts/392D7D_11_0.woff2') format('woff2'), url('webfonts/392D7D_11_0.woff') format('woff'), url('webfonts/392D7D_11_0.ttf') format('truetype');
-}
-
-/* CSS Document */
 /*
 Colors used
 
@@ -311,6 +191,7 @@ nav {
   top: 35px;
   right: 100px;
   font-size: 20px;
+  z-index: 9999;
 }
 
 nav-a {
@@ -326,26 +207,33 @@ nav-a {
   padding: 5px;
 }
 
+#myLinks {
+  background-color: #ffffff;
+}
+
 .topnav {
   overflow: hidden;
-  background-color: #ffffff;
   position: relative;
+  background-color: transparent;
 }
 
 .topnav #myLinks {
   display: none;
+  text-align: center;
+  width: 300px;
 }
 
 .topnav a {
   color: #3963B4;
-  padding: 20px 20px;
+  font-family: 'TTCommons-Medium';
+  padding: 20px;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 24px;
   display: block;
 }
 
 .topnav a.icon {
-  background-color: none;
+  background-color: transparent;
   display: block;
   position: absolute;
   right: 0;
@@ -357,6 +245,7 @@ nav-a {
   background-color: #FFE7FF;
   color: #3963B4;
 }
+
 
 .active {
   background-color: inherit;
@@ -465,6 +354,7 @@ span {
 #myBtn:hover {
   background-color: #00EDEC;
 }
+
 
 #navigation {
   background-color: #ffffff;
@@ -658,6 +548,12 @@ button-medium2,
     right: 20px;
   }
 
+  .topnav #myLinks {
+    display: none;
+    text-align: center;
+    width: 280px;
+  }
+
   .welcome-container {
     max-height: 510px;
     height: 100vh;
@@ -665,7 +561,7 @@ button-medium2,
   }
 
   .xs-container {
-    height: 370px;
+    height: 350px;
   }
 
   #welcome {

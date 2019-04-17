@@ -8,6 +8,7 @@ function myFunction() {
   }
 }
 
+
 // When the user scrolls down 60px from the top of the document, show the button
 window.onscroll = function() {
   scrollFunction()

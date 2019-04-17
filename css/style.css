@@ -201,7 +201,7 @@ body {
   color: #3963b4;
   font-size: 24px;
   line-height: 1.2;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.01em;
 }
 
 /* Typography */
@@ -209,7 +209,7 @@ h1 {
   font-family: 'TTCommons-Medium';
   font-size: 2em;
   line-height: 1.1;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.02em;
   margin-top: 50px;
   margin-bottom: 90px;
   text-align: center;
@@ -218,7 +218,7 @@ h1 {
 h2 {
   font-family: 'TTCommons-Medium';
   font-size: 1.7em;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.03em;
   margin-top: 10px;
   margin-bottom: 10px;
   text-align: center;
@@ -227,7 +227,7 @@ h2 {
 h3 {
   font-family: 'TTCommons-Medium';
   font-size: 1em;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.02em;
   color: #3963B4;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -237,7 +237,7 @@ h3 {
 h4 {
   font-family: 'TTCommons-Medium';
   font-size: 1em;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.02em;
   line-height: 1.1;
   color: #FF5C33;
   margin-bottom: 10px;
@@ -659,13 +659,13 @@ button-medium2,
   }
 
   .welcome-container {
-    max-height: 500px;
+    max-height: 510px;
     height: 100vh;
     padding: 10px;
   }
 
   .xs-container {
-    height: 350px;
+    height: 370px;
   }
 
   #welcome {

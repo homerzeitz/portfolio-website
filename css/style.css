@@ -60,14 +60,13 @@
   src: url('webfonts/392D7D_D_0.eot?#iefix') format('embedded-opentype'), url('webfonts/392D7D_D_0.woff2') format('woff2'), url('webfonts/392D7D_D_0.woff') format('woff'), url('webfonts/392D7D_D_0.ttf') format('truetype');
 }
 
-
 /*
 Colors used
 
 Primary Color (Yellow): #FAFA05;
 Secondary Color (Blue): #3963B4;
-Link Color (Red): #FF5C33;
-Hover Color (Light blue): #00EDEC;
+Link Color (Red): #FF5126;
+Hover Color (Light blue): #D1FFFE;
 Background Color (Rose): #FFE7FF;
 */
 /* Layout styling */
@@ -119,7 +118,7 @@ h4 {
   font-size: 1em;
   letter-spacing: 0.02em;
   line-height: 1.1;
-  color: #FF5C33;
+  color: #FF5126;
   margin-bottom: 10px;
   text-align: center;
 }
@@ -242,10 +241,12 @@ nav-a {
 }
 
 .topnav a:hover {
-  background-color: #FFE7FF;
   color: #3963B4;
 }
 
+.topnav #myLinks a:hover {
+  background-color: #FFE7FF;
+}
 
 .active {
   background-color: inherit;
@@ -258,13 +259,13 @@ nav-a {
 
 .nav-a:hover,
 .nav-a:focus {
-  color: #FF5C33;
+  color: #FF5126;
   text-decoration: none;
 }
 
 .nav-a:active {
   /* selected link */
-  color: #FF5C33;
+  color: #FF5126;
 }
 
 nav ul {
@@ -280,18 +281,18 @@ ul {
 }
 
 a {
-  color: #ff5c33;
+  color: #FF5126;
   text-decoration: none;
 }
 
 a:visited {
   /* visited link */
-  color: #FF5C33;
+  color: #FF5126;
 }
 
 a:hover,
 a:focus {
-  color: #00edec;
+  color: #3963B4;
   text-decoration: none;
 }
 
@@ -344,7 +345,7 @@ span {
   border: none;
   outline: none;
   background-color: #ffffff;
-  color: #FF5C33;
+  color: #FF5126;
   cursor: pointer;
   padding: 15px;
   border-radius: 0px;
@@ -352,9 +353,8 @@ span {
 }
 
 #myBtn:hover {
-  background-color: #00EDEC;
+  background-color: #D1FFFE;
 }
-
 
 #navigation {
   background-color: #ffffff;
@@ -370,7 +370,7 @@ span {
   padding: 120px 200px 120px;
 }
 
-#toolset {
+#tools {
   background-color: #FFE7FF;
   color: #3963B4;
   text-align: center;
@@ -384,7 +384,7 @@ span {
   padding: 60px 40px;
 }
 
-#philosophy {
+#mindset {
   background-color: #FFE7FF;
   color: #3963B4;
   text-align: center;
@@ -420,8 +420,8 @@ button,
   font-family: 'TTCommons-Medium';
   font-size: 24px;
   letter-spacing: 0.03em;
-  background-color: white;
-  color: #ff5c33;
+  background-color: #ffffff;
+  color: #FF5126;
   text-decoration: none;
   margin: 10px 10px;
   padding: 15px 15px;
@@ -432,18 +432,18 @@ button,
 
 .button:hover,
 .button:focus {
-  background-color: #00EDEC;
-  color: #ff5c33;
+  background-color: #3963B4;
+  color: #ffffff;
 }
 
 .button:active {
-  background-color: #00EDEC;
-  color: #ff5c33;
+  background-color: #3963B4;
+  color: #ffffff;
 }
 
 button-contact,
 .button-contact {
-  background-color: #FF5C33;
+  background-color: #FF5126;
   color: #ffffff;
   transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out, border-color 0.5s ease-in-out;
 }
@@ -465,7 +465,7 @@ button-medium,
 
 button-medium2,
 .button-medium2 {
-  background-color: #FF5C33;
+  background-color: #FF5126;
   color: #ffffff;
   font-size: 30px;
   border-radius: 80px;
@@ -569,7 +569,7 @@ button-medium2,
     padding: 10px 10px;
   }
 
-  #toolset {
+  #tools {
     margin: 0 auto;
     padding: 20px 40px;
   }
@@ -579,7 +579,7 @@ button-medium2,
     padding: 35px 35px 60px 35px;
   }
 
-  #philosophy {
+  #mindset {
     margin: 0 auto;
     padding: 15px 15px;
   }
